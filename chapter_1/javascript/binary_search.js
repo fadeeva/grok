@@ -5,7 +5,7 @@ function binarySearch(arr, item) {
 	let guess = null;
 
 	while(low <= high) {
-		mid = (low +high);
+		mid = (low + high);
         guess = arr[mid];
         if(guess == item)
             return mid
